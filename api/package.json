@@ -9,8 +9,7 @@
     "prisma2": "^2.0.0-preview-8"
   },
   "scripts": {
-    "generate": "yarn prisma2 generate",
-    "dev": "yarn generate && yarn hammer-dev-server"
+    "dev": "yarn hammer-dev-server"
   },
   "devDependencies": {
     "babel-plugin-module-resolver": "^3.2.0",
