@@ -1,5 +1,7 @@
 # HammerFramework's `create-hammer-app`
 
+⚠️a This is a work in progress. It is not currently functional.⚠️
+
 This is an example Hammer app. In order to figure out what Hammer should be
 like, we're first developing a simple app with the technology stack we want and
 seeing how it feels. Eventually, the things we learn here will be codified in
