@@ -15,8 +15,7 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.3.3",
     "core-js": "^3.2.1",
-    "typescript": "^3.5.3",
-    "@hammerframework/hammer-cli": "^0.0.0-alpha.5"
+    "typescript": "^3.5.3"
   },
   "dependencies": {},
   "scripts": {
