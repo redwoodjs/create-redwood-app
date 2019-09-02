@@ -810,7 +810,7 @@
     "@babel/helper-plugin-utils" "^7.0.0"
     "@babel/plugin-transform-typescript" "^7.3.2"
 
-"@babel/register@^7.4.4", "@babel/register@^7.5.5":
+"@babel/register@^7.5.5":
   version "7.5.5"
   resolved "https://registry.yarnpkg.com/@babel/register/-/register-7.5.5.tgz#40fe0d474c8c8587b28d6ae18a03eddad3dac3c1"
   integrity sha512-pdd5nNR+g2qDkXZlW1yRCWFlNrAn2PPdnZUB72zjX4l1Vv4fMRRLwyf+n/idFCLI1UgVGboUU8oVziwTBiyNKQ==
@@ -879,13 +879,13 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.4.tgz#a87b4b04e5ae14a88d48ebef15015f6b7d1f5677"
   integrity sha512-kBa+cDHOR9jpRJ+kcGMsysrls0leukrm68DmFQoMIWQcXdr2cZvyvypWuGYT7U+9kAExUE7+T7r6G3C3A6L8MQ==
 
-"@hammerframework/hammer-api@^0.0.1-alpha.5":
-  version "0.0.1-alpha.5"
-  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-api/-/hammer-api-0.0.1-alpha.5.tgz#8e6174ded0aa3b15d911f016baf9f6dbd6f4e694"
-  integrity sha512-Dygem1wENwukslp5kGVSbqJI05rPt0Fu40A7rsrh0ByAsbz+6XiFuTIsBndpKlcKO+sRiVupDUagQ1c6cmxOUQ==
+"@hammerframework/hammer-api@^0.0.1-alpha.6":
+  version "0.0.1-alpha.6"
+  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-api/-/hammer-api-0.0.1-alpha.6.tgz#9c0d0c2385c3f0be63fee289f577a7a2f2282686"
+  integrity sha512-ZwvMzISJIXpjR8bxwuFBDyrBjIFweftz43urn4+Zq6svId7d9fAbkQEhZXeLrdHEOFdxrdr/v8mqVqWpE8/dVw==
   dependencies:
-    "@babel/register" "^7.4.4"
-    "@hammerframework/hammer-core" "0.0.1-alpha.5"
+    "@babel/register" "^7.5.5"
+    "@hammerframework/hammer-core" "^0.0.1-alpha.6"
     apollo-server-lambda "^2.6.7"
     findup-sync "^3.0.0"
     graphql "^14.4.2"
@@ -905,22 +905,22 @@
     require-dir "^1.2.0"
     yargs-parser "^13.1.1"
 
-"@hammerframework/hammer-core@0.0.1-alpha.5", "@hammerframework/hammer-core@^0.0.1-alpha.5":
-  version "0.0.1-alpha.5"
-  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-core/-/hammer-core-0.0.1-alpha.5.tgz#01ff166b43d412d346b8ce07fc909ff8729bcbaa"
-  integrity sha512-9jH168qg7smpUa6TH+Q0EHSJC5a4bP/Uv1gxZadhqbn4URuSZb9BF4sfmlJ6mi3znC+sXkdVgtF9mFEPLUXiQw==
+"@hammerframework/hammer-core@^0.0.1-alpha.6":
+  version "0.0.1-alpha.6"
+  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-core/-/hammer-core-0.0.1-alpha.6.tgz#460a8284d98b2a6d4ed22cf8937a0220ac703972"
+  integrity sha512-GbKpwj1/XiLPK06lgJy1Qi+z4U5aROHVYzDGGrtVYP8bvUnIYgOTbjsjTQoi5//ERtRDwjaLh7PkLZ6qnczZxQ==
   dependencies:
-    "@babel/register" "^7.4.4"
+    "@babel/register" "^7.5.5"
     findup-sync "^3.0.0"
     toml "^3.0.0"
 
-"@hammerframework/hammer-dev-server@^0.0.1-alpha.5":
-  version "0.0.1-alpha.5"
-  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-dev-server/-/hammer-dev-server-0.0.1-alpha.5.tgz#2c3e2e1a4b184fd95c2fa4b01e8f9d62d5ff11ed"
-  integrity sha512-RYYH9XNwXkRsG0ZjOP6BJQFB6J8xtX1VqTu1PfoRXx9tt+s0d2Ft/+8Lj2hr2w6VdHnu7pzLJDmPzaLw8YLTLQ==
+"@hammerframework/hammer-dev-server@^0.0.1-alpha.6":
+  version "0.0.1-alpha.6"
+  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-dev-server/-/hammer-dev-server-0.0.1-alpha.6.tgz#77b660f24c34a5acd272375306a96455fa120223"
+  integrity sha512-111Igpbpn65VywXSXuoe8FjYPv/jFEQ/W8Pfj6sTOnK/TyteuH3VP8t5MB4g/oRbYaurdaBxKnWCsW4XhKEBEQ==
   dependencies:
     "@babel/register" "^7.5.5"
-    "@hammerframework/hammer-core" "0.0.1-alpha.5"
+    "@hammerframework/hammer-core" "^0.0.1-alpha.6"
     args "^5.0.1"
     body-parser "^1.19.0"
     chokidar "^3.0.2"
@@ -929,10 +929,10 @@
     qs "^6.7.0"
     require-dir "^1.2.0"
 
-"@hammerframework/hammer-web@^0.0.1-alpha.5":
-  version "0.0.1-alpha.5"
-  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-web/-/hammer-web-0.0.1-alpha.5.tgz#f50e6fbe21b93b7481d141fd6b2b8aac8fa4fcff"
-  integrity sha512-dLbZm3/+G2DOdKYHgkZ5OKRE1VUce/XB39mmHJJ96X6kOobND+B9XM67j3oDhfMVnxs8IqiaJ9Cnde1l0XWIUQ==
+"@hammerframework/hammer-web@^0.0.1-alpha.6":
+  version "0.0.1-alpha.6"
+  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-web/-/hammer-web-0.0.1-alpha.6.tgz#4e78cded76bec9506db8b234151561f6034982c5"
+  integrity sha512-u7TkAMuIOJ4xRwylCWoakIGAsm4edaKhYZiNxget7Cd2+f99a9Z7v+Rq1GsEg01xD9KZD13yOo9rzrGqBJ6iKw==
   dependencies:
     "@apollo/react-components" "^3.0.1"
     "@apollo/react-hooks" "^3.0.1"

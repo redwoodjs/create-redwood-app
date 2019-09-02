@@ -8,7 +8,7 @@ type Mutation {
 
 type Query {
   help: String!
-  users: User
+  users: [User!]
 }
 
 type User {

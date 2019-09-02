@@ -6,6 +6,8 @@ import {
   booleanArg
 } from "nexus";
 
+import { users } from "../interfaces";
+
 export const User = objectType({
   name: "User",
   definition(t) {
@@ -15,21 +17,22 @@ export const User = objectType({
   }
 });
 
-export const users = queryField("users1", {
-  type: "User",
+export const usersAll = queryField("users", {
+  type: User,
+  list: true,
   nullable: true,
   resolve(_root, _args, _context) {
-    return null;
+    return users.all();
   }
 });
 
 export const usersCreate = mutationField("usersCreate", {
-  type: "User",
+  type: User,
   args: {
     email: stringArg({ required: true }),
     isAdmin: booleanArg({ default: false })
   },
   resolve(_root, { email, isAdmin }, _context) {
-    return null;
+    return users.create({ email, isAdmin });
   }
 });
