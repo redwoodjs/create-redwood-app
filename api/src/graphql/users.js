@@ -6,7 +6,7 @@ import {
   booleanArg
 } from "nexus";
 
-import { users } from "../interfaces";
+import { users } from "src/interfaces";
 
 export const User = objectType({
   name: "User",

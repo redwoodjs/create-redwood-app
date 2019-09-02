@@ -1,4 +1,4 @@
-import { db } from "../lib";
+import { db } from "src/lib";
 
 // https://github.com/prisma/prisma2/blob/master/docs/photon/api.md#crud
 
