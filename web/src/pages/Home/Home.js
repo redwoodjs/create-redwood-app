@@ -42,7 +42,7 @@ const Home = () => {
     <>
       <h1>Users</h1>
 
-      {error & <p>{error}</p>}
+      {error && <p>{error}</p>}
 
       {loading ? (
         "loading..."
