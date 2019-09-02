@@ -1,12 +1,11 @@
 # HammerFramework's `create-hammer-app`
 
-⚠️a This is a work in progress. It is not currently functional.⚠️
-
-This is an example Hammer app. In order to figure out what Hammer should be
-like, we're first developing a simple app with the technology stack we want and
-seeing how it feels. Eventually, the things we learn here will be codified in
-the Hammer "architectural style" and a set of command line tools will help
-generate various things you need during a Hammer development cycle.
+In order to figure out what Hammer should be
+like, we're first developing a simple apps
+([invoice](https://github.com/hammerframework/billable) and [todo](https://github.com/hammerframework/todo) with the technology stack we want and
+seeing how it feels. Eventually, the things we learn here will be codified in the
+Hammer "architectural style" and a set of command line tools will help generate
+various things you need during a Hammer development cycle.
 
 ## Getting Started
 
@@ -40,7 +39,9 @@ Browse to `http://localhost:8910` to see the web app. Lambda functions run on
 
 ### Database
 
-We use Prisma's Lift (Migrations) and PhotonJS (ORM).
+We're using Prisma's [Photon ORM](https://github.com/prisma/prisma2/blob/master/docs/photon/api.md) and [Lift Migration Engine](https://github.com/prisma/prisma2/blob/master/docs/data-modeling.md).
+
+Prisma2 is [not ready for production](https://isprisma2ready.com) at the moment.
 
 To create a development database:
 
@@ -49,7 +50,7 @@ yarn db:up
 ```
 
 Will read the schema definition in `api/prisma/schema.prisma` and generate a
-sqlite database in `api/prisma/dev.sqlite`
+sqlite database in `api/prisma/dev.db`
 
 If you've made changes to the schema run `yarn db:save` to generate a migration, and
 `yarn db:up` to apply the migration/ generate a new ORM client.
