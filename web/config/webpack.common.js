@@ -24,8 +24,9 @@ module.exports = {
     new webpack.DefinePlugin({
       "__HAMMER__.apiProxyPath": JSON.stringify(hammerConfig.web.apiProxyPath)
     }),
+    // TODO: Make favicon path a configuration option in `hammer.toml`
     new FaviconsWebpackPlugin(
-      path.join(hammerConfig.baseDir, "web/src/favicon.svg")
+      path.join(hammerConfig.baseDir, "web/src/favicon.png")
     )
   ],
   module: {
