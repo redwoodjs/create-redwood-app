@@ -32,7 +32,7 @@
     "dev:web": "yarn workspace web dev",
     "db:save": "yarn workspace api prisma2 lift save",
     "db:up": "yarn workspace api prisma2 lift up && yarn workspace api prisma2 generate",
-    "lint": "yarn eslint 'web/src/**/*.js' 'api/src/**/*.js' 'packages/**/src/**/*.js'",
-    "lint:fix": "yarn eslint --fix 'web/src/**/*.js' 'api/src/**/*.js' 'packages/**/src/**/*.js'"
+    "lint": "yarn eslint 'web/src/**/*.js' 'api/src/**/*.js'",
+    "lint:fix": "yarn eslint --fix 'web/src/**/*.js' 'api/src/**/*.js'"
   }
 }
