@@ -1,4 +1,4 @@
-import { useQuery, useMutation, gql } from "@hammerframework/hammer-web";
+import { useQuery, useMutation, gql } from '@hammerframework/hammer-web'
 
 const USERS_ALL = gql`
   query usersAll {
@@ -8,7 +8,7 @@ const USERS_ALL = gql`
       isAdmin
     }
   }
-`;
+`
 
 const USERS_ADD = gql`
   mutation usersCreate($email: String!) {
@@ -18,25 +18,25 @@ const USERS_ADD = gql`
       isAdmin
     }
   }
-`;
+`
 
 const Home = () => {
   const [addUser] = useMutation(USERS_ADD, {
-    update(
+    update (
       cache,
       {
-        data: { usersCreate }
+        data: { usersCreate },
       }
     ) {
-      const { users } = cache.readQuery({ query: USERS_ALL });
+      const { users } = cache.readQuery({ query: USERS_ALL })
       cache.writeQuery({
         query: USERS_ALL,
-        data: { users: users.concat([usersCreate]) }
-      });
-    }
-  });
+        data: { users: users.concat([usersCreate]) },
+      })
+    },
+  })
 
-  const { loading, error, data } = useQuery(USERS_ALL);
+  const { loading, error, data } = useQuery(USERS_ALL)
 
   return (
     <>
@@ -45,11 +45,11 @@ const Home = () => {
       {error && <p>{error}</p>}
 
       {loading ? (
-        "loading..."
+        'loading...'
       ) : (
         <ol>
           {data.users.map(({ email }) => {
-            return <li key={"users" + email}>{email}</li>;
+            return <li key={'users' + email}>{email}</li>
           })}
         </ol>
       )}
@@ -58,14 +58,14 @@ const Home = () => {
         onClick={() => {
           const localPart = Math.random()
             .toString(36)
-            .substr(2, 5);
-          addUser({ variables: { email: `${localPart}@example.org` } });
+            .substr(2, 5)
+          addUser({ variables: { email: `${localPart}@example.org` } })
         }}
       >
         Add user
       </button>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
