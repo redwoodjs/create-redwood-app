@@ -1,16 +1,20 @@
-datasource sqlite {
-  url = "file:dev.db"
-  provider = "sqlite"
+datasource hammerDatasource {
+  provider = env("PRISMA_PROVIDER")
+  url = env("PRISMA_URL")
 }
+
+// We use Yarn's workspaces to "install" Photon's generated client
+// as a dependency. We do this so that its included during build,
+// packaging and distribution to production.
 
 generator photonjs {
   provider = "photonjs"
-  output = "../generated/photon"
+  output = "../../packages/photon"
 }
 
-// Define your own models here and run yarn db:save to create
-// migrations for them.
+// Define your data model here ↴
 
+// Example: User
 model User {
   id Int @id
   name String?
