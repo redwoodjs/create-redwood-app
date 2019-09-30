@@ -6,8 +6,6 @@ import * as users from 'src/graphql/users'
 
 const photon = new Photon()
 
-photon.users.findMany()
-
 const server = graphQLServerlessFunction({
   schemaTypes: [users],
   context: {

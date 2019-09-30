@@ -7,14 +7,12 @@
     "@hammerframework/hammer-api": "^0.0.1-alpha.9",
     "apollo-server-lambda": "^2.9.4",
     "nexus": "^0.12.0-beta.5",
-    "prisma2": "^2.0.0-preview-12"
+    "prisma2": "^2.0.0-preview-13.2"
   },
   "devDependencies": {
     "@hammerframework/hammer-dev-server": "^0.0.1-alpha.9"
   },
   "scripts": {
-    "dev": "yarn hammer-dev-server",
-    "db:up": "./scripts/prisma-default-env-vars.sh lift up && ./scripts/prisma-default-env-vars.sh generate",
-    "db:save": "./scripts/prisma-default-env-vars.sh lift save"
+    "dev": "yarn hammer-dev-server"
   }
 }

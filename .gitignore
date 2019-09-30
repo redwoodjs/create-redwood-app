@@ -4,3 +4,8 @@ node_modules
 dev.db
 api/generated/generated-types.d.ts
 packages/photon/
+api/dist
+
+# web
+web/dist
+

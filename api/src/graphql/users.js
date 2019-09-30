@@ -19,7 +19,7 @@ export const usersAll = queryField('users', {
   type: User,
   list: true,
   resolve(_root, _args, { photon }) {
-    return photon.users.findMany() || []
+    return photon.users.findMany()
   },
 })
 
