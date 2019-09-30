@@ -3,4 +3,4 @@ node_modules
 # api
 dev.db
 api/generated/generated-types.d.ts
-pacakges/photon
+packages/photon/

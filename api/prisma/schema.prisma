@@ -9,7 +9,7 @@ datasource hammerDatasource {
 
 generator photonjs {
   provider = "photonjs"
-  output = "../../packages/photon"
+  output = "../packages/photon"
 }
 
 // Define your data model here ↴
