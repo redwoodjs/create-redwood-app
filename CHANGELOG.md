@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [0.0.1-alpha.9.1] - 2019-10-03
+
+### Fixed
+
+- Prisma's Photon client was generated in the incorrect path.
+- Updated the ESLint configuration and VSCode workspace settings to
+  auto-lint on save.
+
 ## [0.0.1-alpha.9] - 2019-09-29
 
 ### Added
