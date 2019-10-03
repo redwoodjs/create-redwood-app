@@ -22,7 +22,7 @@ const USERS_ADD = gql`
 
 const Home = () => {
   const [addUser] = useMutation(USERS_ADD, {
-    update (
+    update(
       cache,
       {
         data: { usersCreate },

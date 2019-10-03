@@ -3,18 +3,14 @@ datasource hammerDatasource {
   url = "file:./dev.db"
 }
 
-// We use Yarn's workspaces to "install" Photon's generated client
-// as a dependency. We do this so that its included during build,
-// packaging and distribution to production.
-
 generator photonjs {
   provider = "photonjs"
   output = "../packages/photon"
 }
 
-// Define your data model here ↴
+// Define your own datamodels here and run `yarn db:save` to create
+// migrations for them.
 
-// Example: User
 model User {
   id Int @id
   name String?
