@@ -2,31 +2,31 @@
 # yarn lockfile v1
 
 
-"@apollo/react-common@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@apollo/react-common/-/react-common-3.1.1.tgz#540619d8276d750ce4f381c9cf8f51a6f657f75d"
-  integrity sha512-lMiczOm4sD16eI9Ai+AUY+Jl3C/FNm4IpoZiAbe35TqMuD7HpZ4OJmXAbT3CzfrAqsKK8+rHgRvTiPI2kQjIWg==
+"@apollo/react-common@^3.1.3":
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@apollo/react-common/-/react-common-3.1.3.tgz#ddc34f6403f55d47c0da147fd4756dfd7c73dac5"
+  integrity sha512-Q7ZjDOeqjJf/AOGxUMdGxKF+JVClRXrYBGVq+SuVFqANRpd68MxtVV2OjCWavsFAN0eqYnRqRUrl7vtUCiJqeg==
   dependencies:
     ts-invariant "^0.4.4"
     tslib "^1.10.0"
 
-"@apollo/react-components@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@apollo/react-components/-/react-components-3.1.1.tgz#dde560f0296318d230a5e73b9b450a881baace29"
-  integrity sha512-ozoq3XkHZKXrLQUOTZlbbPg9SvZryPQCRhTl+WJZu75ysaAKbwl6iVt+emBymZ5/eNXSUSdxqnOCX281sFLRRw==
+"@apollo/react-components@^3.1.3":
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@apollo/react-components/-/react-components-3.1.3.tgz#8f6726847cd9b0eb4b22586b1a038d29aa8b1da4"
+  integrity sha512-H0l2JKDQMz+LkM93QK7j3ThbNXkWQCduN3s3eKxFN3Rdg7rXsrikJWvx2wQ868jmqy0VhwJbS1vYdRLdh114uQ==
   dependencies:
-    "@apollo/react-common" "^3.1.1"
-    "@apollo/react-hooks" "^3.1.1"
+    "@apollo/react-common" "^3.1.3"
+    "@apollo/react-hooks" "^3.1.3"
     prop-types "^15.7.2"
     ts-invariant "^0.4.4"
     tslib "^1.10.0"
 
-"@apollo/react-hooks@^3.1.1":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@apollo/react-hooks/-/react-hooks-3.1.1.tgz#8e5a0f281a9778aaf17496ad38a178d23375077c"
-  integrity sha512-LwE4olNlKwqh1hl6iHr/igSDGRVs7c6Ik5MYZm9TzGj01f+ebhM1+Pn+UBNLsb3uRuytZsUOsEDBEXMABzC9Tw==
+"@apollo/react-hooks@^3.1.3":
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@apollo/react-hooks/-/react-hooks-3.1.3.tgz#ad42c7af78e81fee0f30e53242640410d5bd0293"
+  integrity sha512-reIRO9xKdfi+B4gT/o/hnXuopUnm7WED/ru8VQydPw+C/KG/05Ssg1ZdxFKHa3oxwiTUIDnevtccIH35POanbA==
   dependencies:
-    "@apollo/react-common" "^3.1.1"
+    "@apollo/react-common" "^3.1.3"
     "@wry/equality" "^0.1.9"
     ts-invariant "^0.4.4"
     tslib "^1.10.0"
@@ -932,10 +932,10 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.4.tgz#a87b4b04e5ae14a88d48ebef15015f6b7d1f5677"
   integrity sha512-kBa+cDHOR9jpRJ+kcGMsysrls0leukrm68DmFQoMIWQcXdr2cZvyvypWuGYT7U+9kAExUE7+T7r6G3C3A6L8MQ==
 
-"@hammerframework/eslint-config-hammer@0.0.1-alpha.9.1":
-  version "0.0.1-alpha.9.1"
-  resolved "https://registry.yarnpkg.com/@hammerframework/eslint-config-hammer/-/eslint-config-hammer-0.0.1-alpha.9.1.tgz#d8f4f6ce3d7fbc42d5583448f8cceff6a7ddf49b"
-  integrity sha512-XiUdny1NaJWT33jKAqscFNIdGgiK+nBQftcPX+8MQsvBcqaKYei17HD7KXTzjFv7bnhJFf4iMen4ERVdnQI1XQ==
+"@hammerframework/eslint-config-hammer@0.0.1-alpha.10":
+  version "0.0.1-alpha.10"
+  resolved "https://registry.yarnpkg.com/@hammerframework/eslint-config-hammer/-/eslint-config-hammer-0.0.1-alpha.10.tgz#9ff7571e31f06eecfc35f53725ad5d41835e08d5"
+  integrity sha512-Mvtwwqq79MygGTJiiXNbRab815a0Yt71jSu6KlqMWoxzkFkpxNdtVR2nUGQzhyL2pe/zNFqQoBCSkjF8zTbKHA==
   dependencies:
     babel-eslint "^10.0.3"
     eslint "5.16.0"
@@ -948,28 +948,29 @@
     eslint-plugin-react-hooks "^2.0.1"
     prettier "^1.18.2"
 
-"@hammerframework/hammer-api@^0.0.1-alpha.9":
-  version "0.0.1-alpha.9"
-  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-api/-/hammer-api-0.0.1-alpha.9.tgz#36fb7eab678eb791e3f651528ed4410921488e09"
-  integrity sha512-nsb+8LkmvhRyYKeU9T2khYAQ5bwsXdq/XwAs5KRM5vUQO0mdnK9BMwqRpq1ufd34CIzgVFzq5pGXA4/B4oB3yQ==
+"@hammerframework/hammer-api@^0.0.1-alpha.10":
+  version "0.0.1-alpha.10"
+  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-api/-/hammer-api-0.0.1-alpha.10.tgz#6bc31c62f0a46d99c7fe87f704013ae7147dad0c"
+  integrity sha512-++GAGP+ePdg6aZsmgADtmS9i9kGqr/NgsB/NG7FZnDnJUDx/Ksq0Tv3UcqkdFMFLWHD6/8lMfs5RCczLAla9iQ==
   dependencies:
-    "@hammerframework/hammer-core" "^0.0.1-alpha.9"
+    "@hammerframework/hammer-core" "^0.0.1-alpha.10"
 
-"@hammerframework/hammer-core@^0.0.1-alpha.9":
-  version "0.0.1-alpha.9"
-  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-core/-/hammer-core-0.0.1-alpha.9.tgz#4a5df6b19c3d0328f7dd2db2f350be0e7994eb8f"
-  integrity sha512-N0nWW62IIT4cr3JgCTKbszir3kN/lMmqzwr+OzI+cf5/+PuqUopmCQqFU3/i2HVCuQMWjaSwCAKmkq337MOG6A==
+"@hammerframework/hammer-core@^0.0.1-alpha.10":
+  version "0.0.1-alpha.10"
+  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-core/-/hammer-core-0.0.1-alpha.10.tgz#cb686fdd676465fa4644fcc893f3b5827f59ead1"
+  integrity sha512-cA4dfVdnhcE/i607fORyu4o8/cW/Q4ZaEQSWr6llMjdKU19Pe0zd009D0wWtCGysO5RP8LwAQ38P1qrTZgpT0Q==
   dependencies:
+    core-js "3.3.3"
     findup-sync "^3.0.0"
     toml "^3.0.0"
 
-"@hammerframework/hammer-dev-server@^0.0.1-alpha.9":
-  version "0.0.1-alpha.9"
-  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-dev-server/-/hammer-dev-server-0.0.1-alpha.9.tgz#dee823ae9911628df97119a2acbded0fade04e93"
-  integrity sha512-KfusHwFRGiuOJYjpud3nwCC4jsyHZMAx/uj8vqQKC5TMwZbVZYfR3RConj49SE1tnuapxNFRyGe+ESEMtKpNjw==
+"@hammerframework/hammer-dev-server@^0.0.1-alpha.10":
+  version "0.0.1-alpha.10"
+  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-dev-server/-/hammer-dev-server-0.0.1-alpha.10.tgz#94e549f222bb6a99e0792f8ea3753dcfa1df2541"
+  integrity sha512-DTGL/JyiAGcDbHDcfEQdK03KZN8PA6S/2mmeYNFPC6/zbiTc7+eNQUMJv8lxSIFseuV/XXR+Uv5MJbf5HIG+QA==
   dependencies:
     "@babel/register" "^7.5.5"
-    "@hammerframework/hammer-core" "^0.0.1-alpha.9"
+    "@hammerframework/hammer-core" "^0.0.1-alpha.10"
     args "^5.0.1"
     body-parser "^1.19.0"
     chokidar "^3.0.2"
@@ -979,18 +980,19 @@
     qs "^6.7.0"
     require-dir "^1.2.0"
 
-"@hammerframework/hammer-web@^0.0.1-alpha.9":
-  version "0.0.1-alpha.9"
-  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-web/-/hammer-web-0.0.1-alpha.9.tgz#898d4d751c004f57f3ee366499cd0d3a19590920"
-  integrity sha512-v+H+nQl7gKddFDp+5xz5gB7w5YEHno5QyRCG0l36X25n7EoIgR95MycTxH87//5yMaTf13+FkU85Wx3jUf6G3A==
+"@hammerframework/hammer-web@^0.0.1-alpha.10":
+  version "0.0.1-alpha.10"
+  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-web/-/hammer-web-0.0.1-alpha.10.tgz#3e029daeea37dbc411ecaeba3f10bb6d74a2cced"
+  integrity sha512-BhzB1U7z2xs88lqQ4tBra1cCzrON/q6SCjfo0V02KpF1IGOqVSYIloRWHB2X1KFfG9pu8+AyJA6VJHRTf+M5fA==
   dependencies:
-    "@apollo/react-components" "^3.1.1"
-    "@apollo/react-hooks" "^3.1.1"
+    "@apollo/react-components" "^3.1.3"
+    "@apollo/react-hooks" "^3.1.3"
     apollo-boost "0.4.4"
     apollo-cache "^1.3.2"
     apollo-client "^2.6.4"
     apollo-link "^1.2.13"
     apollo-utilities "^1.3.2"
+    core-js "3.3.3"
     graphql "^14.5.8"
     proptypes "^1.1.0"
 
@@ -3051,6 +3053,11 @@ core-js-compat@^3.1.1:
   dependencies:
     browserslist "^4.6.6"
     semver "^6.3.0"
+
+core-js@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.3.3.tgz#b7048d3c6c1a52b5fe55a729c1d4ccdffe0891bb"
+  integrity sha512-0xmD4vUJRY8nfLyV9zcpC17FtSie5STXzw+HyYw2t8IIvmDnbq7RJUULECCo+NstpJtwK9kx8S+898iyqgeUow==
 
 core-js@^2.5.7, core-js@^2.6.5:
   version "2.6.9"
@@ -6752,10 +6759,10 @@ pretty-error@^2.0.2:
     renderkid "^2.0.1"
     utila "~0.4"
 
-prisma2@^2.0.0-preview-13.2:
-  version "2.0.0-preview-13.2"
-  resolved "https://registry.yarnpkg.com/prisma2/-/prisma2-2.0.0-preview-13.2.tgz#70ad3a55e258646417baf07308515f47dc22e2fa"
-  integrity sha512-9zODuCOoDhUHpFVWYgcKAWa7Blie4UIfkwH2gCTs/7IfWyca2zng+XyJuNcm5Yp5f1JyZ5EEvIe0ysZdZNcsBQ==
+prisma2@^2.0.0-preview014.2:
+  version "2.0.0-preview015"
+  resolved "https://registry.yarnpkg.com/prisma2/-/prisma2-2.0.0-preview015.tgz#0390b1db7c0b7d4eb5892652d77756f7598ff398"
+  integrity sha512-1vPWsdikTTrIsNlDq6TIIGzZfb5BEurryL6lnT5QxdHYvTZXvNj9pJFHlvlxQpegtqZGITUNM+h7Dud+Y1kUtA==
 
 private@^0.1.6:
   version "0.1.8"
