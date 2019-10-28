@@ -4,7 +4,7 @@ import {
   mutationField,
   stringArg,
   booleanArg,
-} from 'nexus'
+} from '@hammerframework/hammer-api/graphql'
 
 export const User = objectType({
   name: 'User',
@@ -15,7 +15,7 @@ export const User = objectType({
   },
 })
 
-export const usersAll = queryField('users', {
+export const users = queryField('users', {
   type: User,
   list: true,
   resolve(_root, _args, { photon }) {
@@ -23,7 +23,7 @@ export const usersAll = queryField('users', {
   },
 })
 
-export const usersCreate = mutationField('usersCreate', {
+export const createUser = mutationField('createUser', {
   type: User,
   args: {
     email: stringArg({ required: true }),
