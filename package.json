@@ -10,7 +10,7 @@
     ]
   },
   "devDependencies": {
-    "@hammerframework/hammer-core": "^0.0.1-alpha.11",
+    "@hammerframework/hammer-core": "^0.0.1-alpha.11.1",
     "@hammerframework/hammer-cli": "0.0.1-alpha.10",
     "@hammerframework/eslint-config-hammer": "0.0.1-alpha.10"
   },
