@@ -1,59 +1,39 @@
-import { useQuery, useMutation, gql } from '@hammerframework/hammer-web'
+import { useMutation } from '@hammerframework/hammer-web'
 
-const USERS_ALL = gql`
-  query usersAll {
+export const query = gql`
+  query USERS {
     users {
       id
       email
-      isAdmin
     }
   }
 `
 
-const USERS_ADD = gql`
-  mutation usersCreate($email: String!) {
-    usersCreate(email: $email) {
-      id
-      email
-      isAdmin
-    }
-  }
-`
+export const Loader = () => <div>Loading...</div>
 
-const Home = () => {
-  const [addUser] = useMutation(USERS_ADD, {
-    update(
-      cache,
-      {
-        data: { usersCreate },
+const Home = ({ users }) => {
+  const [addUser] = useMutation(
+    gql`
+      mutation CREATE_USER($email: String!) {
+        createUser(email: $email) {
+          id
+          email
+        }
       }
-    ) {
-      const { users } = cache.readQuery({ query: USERS_ALL })
-      cache.writeQuery({
-        query: USERS_ALL,
-        data: { users: users.concat([usersCreate]) },
-      })
-    },
-  })
-
-  const { loading, error, data } = useQuery(USERS_ALL)
+    `,
+    {
+      refetchQueries: () => [{ query }],
+    }
+  )
 
   return (
     <>
       <h1>Users</h1>
-
-      {error && <p>{error}</p>}
-
-      {loading ? (
-        'loading...'
-      ) : (
-        <ol>
-          {data.users.map(({ email }) => {
-            return <li key={'users' + email}>{email}</li>
-          })}
-        </ol>
-      )}
-
+      <ol>
+        {users.map(({ email }) => {
+          return <li key={'users' + email}>{email}</li>
+        })}
+      </ol>
       <button
         onClick={() => {
           const localPart = Math.random()
