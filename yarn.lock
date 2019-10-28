@@ -921,16 +921,7 @@
     yargs-parser "^13.1.1"
     yarn-or-npm "^3.0.1"
 
-"@hammerframework/hammer-core@^0.0.1-alpha.10":
-  version "0.0.1-alpha.10"
-  resolved "https://registry.yarnpkg.com/@hammerframework/hammer-core/-/hammer-core-0.0.1-alpha.10.tgz#cb686fdd676465fa4644fcc893f3b5827f59ead1"
-  integrity sha512-cA4dfVdnhcE/i607fORyu4o8/cW/Q4ZaEQSWr6llMjdKU19Pe0zd009D0wWtCGysO5RP8LwAQ38P1qrTZgpT0Q==
-  dependencies:
-    core-js "3.3.3"
-    findup-sync "^3.0.0"
-    toml "^3.0.0"
-
-"@hammerframework/hammer-core@^0.0.1-alpha.11":
+"@hammerframework/hammer-core@^0.0.1-alpha.10", "@hammerframework/hammer-core@^0.0.1-alpha.11":
   version "0.0.1-alpha.11"
   resolved "https://registry.yarnpkg.com/@hammerframework/hammer-core/-/hammer-core-0.0.1-alpha.11.tgz#84541e28159a55397fd58857fe203763db235e7a"
   integrity sha512-YkNIKHmOgM9TV8xZ9CEBdr+v0Bwt5Jrn0rQFYijZ1ohxx4iDw2GhIZLfVFZd15BbpZpEv1wlkVN044rZOAtsbg==
@@ -966,7 +957,7 @@
     qs "^6.7.0"
     require-dir "^1.2.0"
 
-"@hammerframework/hammer-web@^0.0.1-alpha.10":
+"@hammerframework/hammer-web@^0.0.1-alpha.11":
   version "0.0.1-alpha.10"
   resolved "https://registry.yarnpkg.com/@hammerframework/hammer-web/-/hammer-web-0.0.1-alpha.10.tgz#3e029daeea37dbc411ecaeba3f10bb6d74a2cced"
   integrity sha512-BhzB1U7z2xs88lqQ4tBra1cCzrON/q6SCjfo0V02KpF1IGOqVSYIloRWHB2X1KFfG9pu8+AyJA6VJHRTf+M5fA==
@@ -2433,9 +2424,9 @@ chokidar@^2.0.2, chokidar@^2.1.8:
     fsevents "^1.2.7"
 
 chokidar@^3.0.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.2.2.tgz#a433973350021e09f2b853a2287781022c0dc935"
-  integrity sha512-bw3pm7kZ2Wa6+jQWYP/c7bAZy3i4GwiIiMO2EeRjrE48l8vBqC/WvFhSF0xyM8fQiPEGvwMY/5bqDG7sSEOuhg==
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.2.3.tgz#b9270a565d14f02f6bfdd537a6a2bbf5549b8c8c"
+  integrity sha512-GtrxGuRf6bzHQmXWRepvsGnXpkQkVU+D2/9a7dAe4a7v1NhrfZOZ2oKf76M3nOs46fFYL8D+Q8JYA4GYeJ8Cjw==
   dependencies:
     anymatch "~3.1.1"
     braces "~3.0.2"
@@ -2687,11 +2678,9 @@ connect-history-api-fallback@^1.6.0:
   integrity sha512-e54B99q/OUoH64zYYRf3HBP5z24G38h5D3qXu23JGRoigpX5Ss4r9ZnDk3g0Z8uQC2x2lPaJ+UlWBc1ZWBWdLg==
 
 console-browserify@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/console-browserify/-/console-browserify-1.1.0.tgz#f0241c45730a9fc6323b206dbf38edc741d0bb10"
-  integrity sha1-8CQcRXMKn8YyOyBtvzjtx0HQuxA=
-  dependencies:
-    date-now "^0.1.4"
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/console-browserify/-/console-browserify-1.2.0.tgz#67063cef57ceb6cf4993a2ab3a55840ae8c49336"
+  integrity sha512-ZMkYO/LkF17QvCPqM0gxw8yUzigAOZOSWSHg91FH6orS7vcEj5dVZTidN2fQ14yBSdg97RqhSNwLUXInd52OTA==
 
 console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   version "1.1.0"
@@ -2767,7 +2756,7 @@ core-js@3.3.3:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.3.3.tgz#b7048d3c6c1a52b5fe55a729c1d4ccdffe0891bb"
   integrity sha512-0xmD4vUJRY8nfLyV9zcpC17FtSie5STXzw+HyYw2t8IIvmDnbq7RJUULECCo+NstpJtwK9kx8S+898iyqgeUow==
 
-core-js@3.3.5, core-js@^3.2.1:
+core-js@3.3.5, core-js@^3.0.1, core-js@^3.2.1, core-js@^3.3.3:
   version "3.3.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.3.5.tgz#58d20f48a95a07304b62ff752742b82b56431ed8"
   integrity sha512-0J3K+Par/ZydhKg8pEiTcK/9d65/nqJOzY62uMkjeBmt05fDOt/khUVjDdh8TpeIuGQDy1yLDDCjiWN/8pFIuw==
@@ -2776,11 +2765,6 @@ core-js@^2.5.7, core-js@^2.6.5:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.10.tgz#8a5b8391f8cc7013da703411ce5b585706300d7f"
   integrity sha512-I39t74+4t+zau64EN1fE5v2W31Adtc/REhzWN+gWRRXg6WH5qAsZm62DHpQ1+Yhe4047T55jvzz7MUqF/dBBlA==
-
-core-js@^3.0.1, core-js@^3.3.3:
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.3.4.tgz#6b0a23392958317bfb46e40b090529a923add669"
-  integrity sha512-BtibooaAmSOptGLRccsuX/dqgPtXwNgqcvYA6kOTTMzonRxZ+pJS4e+6mvVutESfXMeTnK8m3M+aBu3bkJbR+w==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -2919,11 +2903,6 @@ dashdash@^1.12.0:
   integrity sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
   dependencies:
     assert-plus "^1.0.0"
-
-date-now@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
-  integrity sha1-6vQ5/U1ISK105cx9vvIAZyueNFs=
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
@@ -3979,7 +3958,7 @@ find-up@^4.0.0:
     locate-path "^5.0.0"
     path-exists "^4.0.0"
 
-findup-sync@3.0.0, findup-sync@^3.0.0:
+findup-sync@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/findup-sync/-/findup-sync-3.0.0.tgz#17b108f9ee512dfb7a5c7f3c8b27ea9e1a9c08d1"
   integrity sha512-YbffarhcicEhOrm4CtrwdKBdCuz576RLdhJDsIfvNtxUuhdRet1qZcsMjqbePtAseKdAnDyM/IyXbu7PRPRLYg==
@@ -6618,10 +6597,10 @@ pretty-error@^2.0.2:
     renderkid "^2.0.1"
     utila "~0.4"
 
-prisma2@^2.0.0-preview015:
-  version "2.0.0-preview015"
-  resolved "https://registry.yarnpkg.com/prisma2/-/prisma2-2.0.0-preview015.tgz#0390b1db7c0b7d4eb5892652d77756f7598ff398"
-  integrity sha512-1vPWsdikTTrIsNlDq6TIIGzZfb5BEurryL6lnT5QxdHYvTZXvNj9pJFHlvlxQpegtqZGITUNM+h7Dud+Y1kUtA==
+prisma2@2.0.0-preview014:
+  version "2.0.0-preview014"
+  resolved "https://registry.yarnpkg.com/prisma2/-/prisma2-2.0.0-preview014.tgz#4ab92914112bb77e4a07c7c44d33e23dac98a8af"
+  integrity sha512-3VTaU83AgTz8/wq3Z+98CyhCW2cVfJEWARom6WpaCmHICv80bnVcjoEFsCly7jU8iHJU+EU8ryY8iver/msFCg==
 
 private@^0.1.6:
   version "0.1.8"
@@ -7536,9 +7515,9 @@ source-map-resolve@^0.5.0:
     urix "^0.1.0"
 
 source-map-support@^0.5.9, source-map-support@~0.5.12:
-  version "0.5.13"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.13.tgz#31b24a9c2e73c2de85066c0feb7d44767ed52932"
-  integrity sha512-SHSKFHadjVA5oR4PPqhtAVdcBWwRYVd6g6cAXnIbRiIwc2EhPrTuKUBdSLvlEKyIP3GCf89fltvcZiP9MMFA1w==
+  version "0.5.15"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.15.tgz#20fe16f16e74644e21a396c78c841fa66e35df6c"
+  integrity sha512-wYF5aX1J0+V51BDT3Om7uXNn0ct2FWiV4bvwiGVefxkm+1S1o5jsecE5lb2U28DDblzxzxeIDbTVpXHI9D/9hA==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"

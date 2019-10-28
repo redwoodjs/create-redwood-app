@@ -8,9 +8,11 @@
   },
   "devDependencies": {
     "@hammerframework/hammer-dev-server": "^0.0.1-alpha.10",
-    "prisma2": "^2.0.0-preview015"
+    "prisma2": "2.0.0-preview014"
   },
   "scripts": {
-    "dev": "yarn hammer-dev-server"
+    "dev": "yarn hammer-dev-server",
+    "db:up": "yarn prisma2 lift up && yarn prisma2 generate",
+    "db:save": "yarn prisma2 lift save"
   }
 }

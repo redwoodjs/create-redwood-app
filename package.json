@@ -5,7 +5,7 @@
   "workspaces": {
     "packages": [
       "api",
-      "api/packages/photon",
+      "api/packages/**",
       "web"
     ]
   },
@@ -22,7 +22,8 @@
     "open": "open http://localhost:8910",
     "dev:api": "yarn workspace api dev",
     "dev:web": "yarn workspace web dev",
-    "dev:db": "yarn workspace api prisma2 dev",
+    "db:up": "yarn workspace api db:up",
+    "db:save": "yarn workspace api db:save",
     "lint": "yarn eslint 'web/src/**/*.js' 'api/src/**/*.js'",
     "lint:fix": "yarn eslint --fix 'web/src/**/*.js' 'api/src/**/*.js'"
   }
