@@ -1,7 +1,5 @@
-import { WithCell } from '@hammerframework/hammer-web'
+import { withCell } from '@hammerframework/hammer-web'
 
-import { query, Loader, default as Component } from './Home'
+import * as Page from './Home'
 
-export default () => {
-  return <WithCell {...{ query, Loader, Component }} />
-}
+export default withCell(Page)

@@ -1,4 +1,4 @@
-import { server } from '@hammerframework/hammer-api/graphql'
+import { server } from '@hammerframework/hammer-api'
 import { Photon } from '@generated/photon'
 
 // Import new schema types

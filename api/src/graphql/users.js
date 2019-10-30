@@ -4,7 +4,7 @@ import {
   mutationField,
   stringArg,
   booleanArg,
-} from '@hammerframework/hammer-api/graphql'
+} from 'nexus'
 
 export const User = objectType({
   name: 'User',
