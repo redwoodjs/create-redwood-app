@@ -4,9 +4,9 @@ yarn-error.log
 # api
 dev.db
 # these photon packages will be removed once they generate
-api/packages/photon/index.js
-api/packages/photon/index.d.ts
-api/packages/photon/runtime/
+packages/photon/index.js
+packages/photon/index.d.ts
+packages/photon/runtime/
 api/dist
 
 # web
