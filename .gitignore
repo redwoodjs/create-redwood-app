@@ -1,14 +1,10 @@
 node_modules/
 yarn-error.log
+.netlify
+dist/
 
-# api
 dev.db
-# these photon packages will be removed once they generate
+# the photon package will be removed once it is generated properly.
 packages/photon/index.js
 packages/photon/index.d.ts
 packages/photon/runtime/
-api/dist
-
-# web
-web/dist
-
