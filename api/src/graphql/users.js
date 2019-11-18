@@ -1,35 +1,29 @@
-import {
-  objectType,
-  queryField,
-  mutationField,
-  stringArg,
-  booleanArg,
-} from 'nexus'
+import { gql } from '@hammerframework/api'
 
-export const User = objectType({
-  name: 'User',
-  definition(t) {
-    t.int('id')
-    t.boolean('isAdmin')
-    t.string('email')
-  },
-})
+export const schema = gql`
+  type User {
+    id: ID!
+    email: String!
+  }
 
-export const users = queryField('users', {
-  type: User,
-  list: true,
-  resolve(_root, _args, { photon }) {
-    return photon.users.findMany()
-  },
-})
+  type Query {
+    users: [User]
+  }
 
-export const createUser = mutationField('createUser', {
-  type: User,
-  args: {
-    email: stringArg({ required: true }),
-    isAdmin: booleanArg({ default: false }),
+  type Mutation {
+    createUser(email: String!): User
+  }
+`
+
+export const resolvers = {
+  Query: {
+    users: (_root, _args, { photon }) => {
+      return photon.users.findMany()
+    },
   },
-  resolve(_root, { email, isAdmin }, { photon }) {
-    return photon.users.create({ data: { email, isAdmin } })
+  Mutation: {
+    createUser: (_root, { email }, { photon }) => {
+      return photon.users.create({ data: { email } })
+    },
   },
-})
+}

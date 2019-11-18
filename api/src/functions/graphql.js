@@ -1,12 +1,14 @@
-import { server } from '@hammerframework/hammer-api'
+import { server, makeMergedSchema } from '@hammerframework/api'
 import { Photon } from '@generated/photon'
 
 // Import new schema types
 import * as users from 'src/graphql/users'
 
+const schema = makeMergedSchema([users])
+
 const photon = new Photon()
 
 export const handler = server({
-  types: [users],
+  schema,
   context: { photon },
 }).createHandler()
