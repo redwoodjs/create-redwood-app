@@ -1,6 +1,6 @@
-import { useMutation } from '@hammerframework/hammer-web'
+import { useMutation } from '@hammerframework/web'
 
-export const query = gql`
+export const QUERY = gql`
   query USERS {
     users {
       id
@@ -9,9 +9,9 @@ export const query = gql`
   }
 `
 
-export const Loader = () => <div>Loading...</div>
+export const Loading = () => <div>Loading...</div>
 
-const Home = ({ users }) => {
+export const Success = ({ users }) => {
   const [addUser] = useMutation(
     gql`
       mutation CREATE_USER($email: String!) {
@@ -47,5 +47,3 @@ const Home = ({ users }) => {
     </>
   )
 }
-
-export default Home
