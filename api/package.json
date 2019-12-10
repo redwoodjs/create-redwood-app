@@ -7,7 +7,7 @@
     "@generated/photon": "0.0.0-generated"
   },
   "devDependencies": {
-    "@hammerframework/hammer-dev-server": "^0.0.1-alpha.12",
+    "@hammerframework/hammer-dev-server": "^0.0.1-alpha.12.5",
     "prisma2": "2.0.0-preview-12"
   },
   "scripts": {
