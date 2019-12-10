@@ -25,6 +25,7 @@
     "db:up": "yarn workspace api db:up",
     "db:save": "yarn workspace api db:save",
     "lint": "yarn eslint 'web/src/**/*.js' 'api/src/**/*.js'",
-    "lint:fix": "yarn eslint --fix 'web/src/**/*.js' 'api/src/**/*.js'"
+    "lint:fix": "yarn eslint --fix 'web/src/**/*.js' 'api/src/**/*.js'",
+    "postinstall": "prisma2 generate"
   }
 }
