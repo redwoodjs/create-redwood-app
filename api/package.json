@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "dependencies": {
     "@hammerframework/api": "^0.0.1-alpha.13.2",
-    "@generated/photon": "0.0.0-generated"
+    "@prisma/photon": "2.0.0-preview018.1"
   },
   "devDependencies": {
     "@hammerframework/hammer-dev-server": "^0.0.1-alpha.12.5",
-    "prisma2": "2.0.0-preview-12"
+    "prisma2": "2.0.0-preview018.1"
   },
   "scripts": {
     "dev": "yarn hammer-dev-server",

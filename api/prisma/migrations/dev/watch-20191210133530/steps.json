@@ -1,0 +1,35 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "stepType": "CreateModel",
+      "model": "User"
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "field": "id",
+      "type": "Int",
+      "arity": "required"
+    },
+    {
+      "stepType": "CreateDirective",
+      "model": "User",
+      "field": "id",
+      "directive": "id"
+    },
+    {
+      "stepType": "CreateField",
+      "model": "User",
+      "field": "email",
+      "type": "String",
+      "arity": "required"
+    },
+    {
+      "stepType": "CreateDirective",
+      "model": "User",
+      "field": "email",
+      "directive": "unique"
+    }
+  ]
+}

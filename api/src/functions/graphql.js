@@ -1,5 +1,5 @@
 import { server, makeMergedSchema } from '@hammerframework/api'
-import { Photon } from '@generated/photon'
+import { Photon } from '@prisma/photon'
 
 // Import new schema types
 import * as users from 'src/graphql/users'

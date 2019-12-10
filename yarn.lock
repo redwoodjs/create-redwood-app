@@ -1309,6 +1309,11 @@
   dependencies:
     core-js "^2.5.7"
 
+"@prisma/photon@2.0.0-preview018.1":
+  version "2.0.0-preview018.1"
+  resolved "https://registry.yarnpkg.com/@prisma/photon/-/photon-2.0.0-preview018.1.tgz#6be288952afcf800363a141ed1a737e21aec087c"
+  integrity sha512-upmbAqMeQDXgGDYDiraA+To4GSnIU8hzTXPqzo8nEIYtelwGYEAgaZnGb9YfsZdpQrWzARGVs1PMO+A2P895gw==
+
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@protobufjs/aspromise/-/aspromise-1.1.2.tgz#9b8b0cc663d669a7d8f6f5d0893a14d348f30fbf"
@@ -6975,10 +6980,10 @@ pretty-format@^24.9.0:
     ansi-styles "^3.2.0"
     react-is "^16.8.4"
 
-prisma2@2.0.0-preview-12:
-  version "2.0.0-preview-12"
-  resolved "https://registry.yarnpkg.com/prisma2/-/prisma2-2.0.0-preview-12.tgz#d5c1793ce19950580d21c4d1bf02583e06610ce4"
-  integrity sha512-IZ6oXNo+uBpN9AuT/eSrIWsanbEk+eYNdcJyeaOZsG1OmiC/iPsRZpJAH1e/29uPwFAi9CgD4YBuVq82X0KICg==
+prisma2@2.0.0-preview018.1:
+  version "2.0.0-preview018.1"
+  resolved "https://registry.yarnpkg.com/prisma2/-/prisma2-2.0.0-preview018.1.tgz#00886734455eba9fdffec8fdd8a171b594a61f5c"
+  integrity sha512-vqoMY4v/GY0oKPlcnNnpcXoNWDEtUVd9vTg+Ad6UAMogVmgYg48YriXCA2RwvoWZdSseoXbwHTnnQF1qSCgz5g==
 
 private@^0.1.6:
   version "0.1.8"

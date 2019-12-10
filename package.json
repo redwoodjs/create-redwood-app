@@ -18,7 +18,7 @@
     "extends": "@hammerframework/eslint-config-hammer"
   },
   "scripts": {
-    "dev": "yarn hammer dev",
+    "dev": "yarn dev:api & yarn dev:web",
     "open": "open http://localhost:8910",
     "dev:api": "yarn workspace api dev",
     "dev:web": "yarn workspace web dev",
