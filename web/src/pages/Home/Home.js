@@ -22,7 +22,7 @@ export const Success = ({ users }) => {
       }
     `,
     {
-      refetchQueries: () => [{ query }],
+      refetchQueries: () => [{ query: QUERY }],
     }
   )
 
