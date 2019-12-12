@@ -5,7 +5,6 @@
   "workspaces": {
     "packages": [
       "api",
-      "packages/**",
       "web"
     ]
   },
