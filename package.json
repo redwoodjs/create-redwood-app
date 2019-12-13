@@ -1,24 +1,23 @@
 {
   "private": true,
   "name": "create-hammer-app",
-  "version": "0.0.1-alpha.13",
+  "version": "0.0.1-alpha.14",
   "workspaces": {
     "packages": [
       "api",
-      "packages/**",
       "web"
     ]
   },
   "devDependencies": {
-    "@hammerframework/hammer-scripts": "^0.0.1-alpha.12.5",
-    "@hammerframework/hammer-cli": "0.0.1-alpha.12.5",
+    "@hammerframework/scripts": "^0.0.1-alpha.14",
+    "@hammerframework/hammer-core": "0.0.1-alpha.12.5",
     "@hammerframework/eslint-config-hammer": "0.0.1-alpha.12"
   },
   "eslintConfig": {
     "extends": "@hammerframework/eslint-config-hammer"
   },
   "scripts": {
-    "dev": "yarn hammer dev",
+    "dev": "yarn dev:api & yarn dev:web",
     "open": "open http://localhost:8910",
     "dev:api": "yarn workspace api dev",
     "dev:web": "yarn workspace web dev",
