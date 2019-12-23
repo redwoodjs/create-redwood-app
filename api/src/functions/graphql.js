@@ -1,10 +1,8 @@
 import { server, makeMergedSchema } from '@hammerframework/api'
 import { Photon } from '@prisma/photon'
 
-// Import new schema types
-import * as users from 'src/graphql/users'
-
-const schema = makeMergedSchema([users])
+// Include new types here, ie. const schema = makeMergedSchema([users])
+const schema = makeMergedSchema([])
 
 const photon = new Photon()
 

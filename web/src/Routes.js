@@ -1,14 +1,11 @@
-import { BrowserRouter, Switch, Route } from '@hammerframework/web'
-
-import Home from 'src/pages/Home'
+import { Router, Route } from '@hammerframework/router'
 
 const Routes = () => {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={Home} />
-      </Switch>
-    </BrowserRouter>
+    <Router>
+      <Route notfound page={NotFoundPage} />
+      <Route fatalerror page={FatalErrorPage} />
+    </Router>
   )
 }
 
