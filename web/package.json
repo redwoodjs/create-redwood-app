@@ -3,14 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@redwoodjs/web": "0.0.1-alpha.14",
-    "@redwoodjs/router": "0.0.1-alpha.14.1",
+    "@redwoodjs/web": "0.0.1-alpha.15.1",
+    "@redwoodjs/router": "0.0.1-alpha.15",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "@redwoodjs/scripts": "0.0.1-alpha.14"
+    "@redwoodjs/scripts": "0.0.1-alpha.15.1"
   },
   "scripts": {
     "dev": "webpack-dev-server --config config/webpack.dev.js",
