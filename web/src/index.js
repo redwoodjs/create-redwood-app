@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom'
-import { HammerProvider } from '@hammerframework/web'
+import { HammerProvider } from '@redwoodjs/web'
 
 import Routes from 'src/Routes'
 
@@ -9,5 +9,5 @@ ReactDOM.render(
   <HammerProvider>
     <Routes />
   </HammerProvider>,
-  document.getElementById('hammer-app')
+  document.getElementById('redwood-app')
 )

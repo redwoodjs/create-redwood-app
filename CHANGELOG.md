@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [0.0.1-alpha.15] - 2020-01-04
+
+### Changed
+
+- Renamed `HammerFramework` to `Redwood`
+
 ## [0.0.1-alpha.9.1] - 2019-10-03
 
 ### Fixed

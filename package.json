@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "create-hammer-app",
-  "version": "0.0.1-alpha.14",
+  "name": "create-redwood-app",
+  "version": "0.0.1-alpha.15",
   "workspaces": {
     "packages": [
       "api",
@@ -9,12 +9,12 @@
     ]
   },
   "devDependencies": {
-    "@hammerframework/scripts": "0.0.1-alpha.14",
-    "@hammerframework/hammer-core": "0.0.1-alpha.14",
-    "@hammerframework/eslint-config-hammer": "0.0.1-alpha.14"
+    "@redwoodjs/scripts": "0.0.1-alpha.14",
+    "@redwoodjs/core": "0.0.1-alpha.14",
+    "@redwoodjs/eslint-config": "0.0.1-alpha.14"
   },
   "eslintConfig": {
-    "extends": "@hammerframework/eslint-config-hammer"
+    "extends": "@redwoodjs/eslint-config"
   },
   "scripts": {
     "dev": "yarn dev:api & yarn dev:web",

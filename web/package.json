@@ -3,15 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "dependencies": {
-    "@hammerframework/web": "0.0.1-alpha.14",
-    "@hammerframework/router": "0.0.1-alpha.14.1",
+    "@redwoodjs/web": "0.0.1-alpha.14",
+    "@redwoodjs/router": "0.0.1-alpha.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "styled-components": "^4.4.0"
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "@hammerframework/scripts": "0.0.1-alpha.14"
+    "@redwoodjs/scripts": "0.0.1-alpha.14"
   },
   "scripts": {
     "dev": "webpack-dev-server --config config/webpack.dev.js",

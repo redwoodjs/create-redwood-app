@@ -1,11 +1,4 @@
-# HammerFramework's `create-hammer-app`
-
-In order to figure out what Hammer should be
-like, we're first developing a simple apps
-([invoice](https://github.com/hammerframework/billable) and [todo](https://github.com/hammerframework/todo) with the technology stack we want and
-seeing how it feels. Eventually, the things we learn here will be codified in the
-Hammer "architectural style" and a set of command line tools will help generate
-various things you need during a Hammer development cycle.
+# `create-hammer-app`
 
 ## Getting Started
 
