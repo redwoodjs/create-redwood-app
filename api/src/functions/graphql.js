@@ -1,4 +1,4 @@
-import { server, makeMergedSchema } from '@hammerframework/api'
+import { server, makeMergedSchema } from '@redwoodjs/api'
 import { Photon } from '@prisma/photon'
 
 // Include new types here, ie. const schema = makeMergedSchema([users])

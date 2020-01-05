@@ -1,8 +1,8 @@
 /* eslint-disable no-console */
 const dotenv = require('dotenv')
-const { Photon } = require('@generated/photon')
-const photon = new Photon()
+import { Photon } from '@prisma/photon'
 
+const photon = new Photon()
 dotenv.config()
 
 async function main() {
@@ -11,10 +11,10 @@ async function main() {
   // will result in the same database state (usually by checking for the
   // existence of a record before trying to create it). For example:
   //
-  //   await photon.user.find({ email: admin@hammerframework.com }).orCreate({
+  //   await photon.user.find({ email: admin@redwoodjs.com }).orCreate({
   //     firstName: 'Admin',
   //     lastName: 'Istrator',
-  //     email: 'admin@hammerframework.com',
+  //     email: 'admin@redwoodjs.com',
   //   })
 
   console.log('No data to seed. See api/prisma/seeds.js for info.')
