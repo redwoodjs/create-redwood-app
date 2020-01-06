@@ -1,13 +1,13 @@
 import ReactDOM from 'react-dom'
-import { HammerProvider } from '@redwoodjs/web'
+import { RedwoodProvider } from '@redwoodjs/web'
 
 import Routes from 'src/Routes'
 
 import './index.css'
 
 ReactDOM.render(
-  <HammerProvider>
+  <RedwoodProvider>
     <Routes />
-  </HammerProvider>,
+  </RedwoodProvider>,
   document.getElementById('redwood-app')
 )

@@ -1,4 +1,4 @@
-# `create-hammer-app`
+# `create-redwood-app`
 
 ## Getting Started
 
