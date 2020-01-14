@@ -1,5 +1,4 @@
 import { Router, Route } from '@redwoodjs/router'
-import NotFoundPage from 'src/pages/NotFoundPage'
 
 const Routes = () => {
   return (
