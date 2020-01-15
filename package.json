@@ -7,10 +7,10 @@
     ]
   },
   "devDependencies": {
-    "@redwoodjs/core": "0.0.1-alpha.18",
-    "@redwoodjs/eslint-config": "0.0.1-alpha.18",
-    "@redwoodjs/scripts": "0.0.1-alpha.18",
-    "@redwoodjs/cli": "^0.0.1-alpha.18"
+    "@redwoodjs/cli": "^0.0.1-alpha.18.0.1",
+    "@redwoodjs/core": "^0.0.1-alpha.18.0.1",
+    "@redwoodjs/eslint-config": "^0.0.1-alpha.18.0.1",
+    "@redwoodjs/scripts": "^0.0.1-alpha.18.0.1"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config"
@@ -26,5 +26,6 @@
     "lint": "yarn eslint 'web/src/**/*.js' 'api/src/**/*.js'",
     "lint:fix": "yarn eslint --fix 'web/src/**/*.js' 'api/src/**/*.js'",
     "postinstall": "yarn workspace api postinstall"
-  }
+  },
+  "version": "0.0.1-alpha.18.0.1"
 }

@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@redwoodjs/api": "0.0.1-alpha.18",
+    "@redwoodjs/api": "^0.0.1-alpha.18.0.1",
     "@prisma/photon": "2.0.0-preview019"
   },
   "devDependencies": {
-    "@redwoodjs/dev-server": "0.0.1-alpha.18",
+    "@redwoodjs/dev-server": "^0.0.1-alpha.18.0.1",
     "prisma2": "2.0.0-preview019"
   },
   "scripts": {
