@@ -2,6 +2,7 @@ node_modules/
 yarn-error.log
 .netlify
 dist/
+dist-babel/
 
 dev.db
 # the photon package will be removed once it is generated properly.
