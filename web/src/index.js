@@ -1,13 +1,16 @@
 import ReactDOM from 'react-dom'
-import { RedwoodProvider } from '@redwoodjs/web'
+import { RedwoodProvider, FatalErrorBoundary } from '@redwoodjs/web'
 
+import FatalErrorPage from 'src/pages/FatalErrorPage'
 import Routes from 'src/Routes'
 
 import './index.css'
 
 ReactDOM.render(
-  <RedwoodProvider>
-    <Routes />
-  </RedwoodProvider>,
+  <FatalErrorBoundary page={FatalErrorPage}>
+    <RedwoodProvider>
+      <Routes />
+    </RedwoodProvider>
+  </FatalErrorBoundary>,
   document.getElementById('redwood-app')
 )
