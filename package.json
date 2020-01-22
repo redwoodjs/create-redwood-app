@@ -24,6 +24,6 @@
     "db:save": "yarn workspace api db:save",
     "db:seed": "yarn workspace api db:seed",
     "lint": "yarn eslint 'web/src/**/*.js' 'api/src/**/*.js'",
-    "lint:fix": "yarn eslint --fix 'web/src/**/*.js' 'api/src/**/*.js'",
+    "lint:fix": "yarn eslint --fix 'web/src/**/*.js' 'api/src/**/*.js'"
   }
 }
