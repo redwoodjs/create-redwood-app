@@ -25,6 +25,5 @@
     "db:seed": "yarn workspace api db:seed",
     "lint": "yarn eslint 'web/src/**/*.js' 'api/src/**/*.js'",
     "lint:fix": "yarn eslint --fix 'web/src/**/*.js' 'api/src/**/*.js'",
-  },
-  "version": "0.0.1-alpha.19"
+  }
 }
