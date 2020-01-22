@@ -14,6 +14,8 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --config config/webpack.dev.js",
-    "build": "webpack --config config/webpack.prod.js"
+    "build": "webpack --config config/webpack.prod.js",
+    "babel": "yarn clean && babel src -d dist-babel",
+    "clean": "rm -rf dist; rm -rf dist-babel"
   }
 }
