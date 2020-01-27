@@ -1,11 +1,7 @@
-node_modules/
-yarn-error.log
+.DS_Store
 .netlify
-dist/
-dist-babel/
-
 dev.db
-# the photon package will be removed once it is generated properly.
-packages/photon/index.js
-packages/photon/index.d.ts
-packages/photon/runtime/
+dist
+dist-babel
+node_modules
+yarn-error.log
