@@ -1107,10 +1107,10 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@redwoodjs/api@^0.0.1-alpha.23":
-  version "0.0.1-alpha.23"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/api/-/api-0.0.1-alpha.23.tgz#9ed7d0e9d5ae87c00fefc51e55eb16e379f25fce"
-  integrity sha512-/sz/Rg2Whyzl0dA+ttEXE0r0JytBJBK0R4H6beirxusdj0aSxz+Esmsm0fOT6noPQXBzQMNEHyElqXaX/YzvOQ==
+"@redwoodjs/api@^0.0.1-alpha.23.0.1":
+  version "0.0.1-alpha.23.0.1"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/api/-/api-0.0.1-alpha.23.0.1.tgz#132985ef74bbf2a619e0878fbccb8c268dc1562a"
+  integrity sha512-TYHmmNpEYLTpZWGLwYlCS9uzFVSn4YNGoU26XqbaWCSc6WLqSYYBK8J653/zpwNVE3eHyPVUDjWCK9jfTItNXA==
   dependencies:
     "@redwoodjs/core" "^0.0.1-alpha.22.0.1"
     apollo-server-lambda "2.9.16"
