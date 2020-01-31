@@ -3,19 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@prisma/photon": "2.0.0-preview019",
-    "@redwoodjs/api": "^0.0.1-alpha.22",
-    "@redwoodjs/core": "^0.0.1-alpha.22.0.1"
+    "@prisma/client": "2.0.0-preview021",
+    "@redwoodjs/api": "^0.0.1-alpha.23",
+    "@redwoodjs/core": "^0.0.1-alpha.23"
   },
   "devDependencies": {
-    "@redwoodjs/dev-server": "^0.0.1-alpha.22",
-    "prisma2": "2.0.0-preview019"
-  },
-  "scripts": {
-    "dev": "yarn dev-server",
-    "db:up": "yarn prisma2 lift up && yarn prisma2 generate",
-    "db:save": "yarn prisma2 lift save",
-    "db:seed": "node prisma/seeds",
-    "build": "NODE_ENV=production yarn db:up && NODE_ENV=production babel src --out-dir dist"
+    "@redwoodjs/dev-server": "^0.0.1-alpha.23",
+    "prisma2": "2.0.0-preview021"
   }
 }
