@@ -4,7 +4,7 @@ datasource DS {
 }
 
 generator photonjs {
-  provider = "photonjs"
+  provider = "prisma-client-js"
 }
 
 // Define your own datamodels here and run `yarn db:save` to create
