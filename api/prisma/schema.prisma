@@ -7,5 +7,10 @@ generator photonjs {
   provider = "prisma-client-js"
 }
 
-// Define your own datamodels here and run `yarn db:save` to create
+// Define your own datamodels here and run `yarn redwood db save` to create
 // migrations for them.
+
+model Example {
+  id    Int     @id @default(autoincrement())
+  deleteMe Boolean @default(true)
+}
