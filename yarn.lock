@@ -902,10 +902,21 @@
     "@babel/helper-plugin-utils" "^7.8.0"
     "@babel/plugin-transform-typescript" "^7.8.0"
 
-"@babel/register@^7.6.2", "@babel/register@^7.8.0":
+"@babel/register@^7.8.0":
   version "7.8.0"
   resolved "https://registry.yarnpkg.com/@babel/register/-/register-7.8.0.tgz#a6515b7daab31209c584f2919702b1dcb6264105"
   integrity sha512-i7CPQBzb/uALrZZozm6jXpSoieZvcTSOqonKA9UX4OLEvAYc4Y2VqgW67ZkSz6xfaNP6m1g1oBy0/zMA7YcdJA==
+  dependencies:
+    find-cache-dir "^2.0.0"
+    lodash "^4.17.13"
+    make-dir "^2.1.0"
+    pirates "^4.0.0"
+    source-map-support "^0.5.16"
+
+"@babel/register@^7.8.3":
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/@babel/register/-/register-7.8.3.tgz#5d5d30cfcc918437535d724b8ac1e4a60c5db1f8"
+  integrity sha512-t7UqebaWwo9nXWClIPLPloa5pN33A2leVs8Hf0e9g9YwUP8/H9NeR7DJU+4CXo23QtjChQv5a3DjEtT83ih1rg==
   dependencies:
     find-cache-dir "^2.0.0"
     lodash "^4.17.13"
@@ -1107,10 +1118,10 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@redwoodjs/api@^0.0.1-alpha.23.0.1":
-  version "0.0.1-alpha.23.0.1"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/api/-/api-0.0.1-alpha.23.0.1.tgz#132985ef74bbf2a619e0878fbccb8c268dc1562a"
-  integrity sha512-TYHmmNpEYLTpZWGLwYlCS9uzFVSn4YNGoU26XqbaWCSc6WLqSYYBK8J653/zpwNVE3eHyPVUDjWCK9jfTItNXA==
+"@redwoodjs/api@^0.0.1-alpha.23.0.2":
+  version "0.0.1-alpha.23.0.2"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/api/-/api-0.0.1-alpha.23.0.2.tgz#46673527c312f6fbcda4cc52e26945cd0d5b327d"
+  integrity sha512-+rypL/Qq1QWBf49q/9nzZH5FnSTeL2hctcobqakuP7drgciQOY2qoQls7W7q9iVnodDKUL0LeVFjeqeZU3Nlpw==
   dependencies:
     "@redwoodjs/core" "^0.0.1-alpha.22.0.1"
     apollo-server-lambda "2.9.16"
@@ -1121,10 +1132,10 @@
     lodash.merge "^4.6.2"
     lodash.omitby "^4.6.0"
 
-"@redwoodjs/cli@^0.0.1-alpha.23.0.1":
-  version "0.0.1-alpha.23.0.1"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-0.0.1-alpha.23.0.1.tgz#ff4e64913fa25c607de66d5766cf1716dc13bc4e"
-  integrity sha512-tuT/1lCsQM3SKz5uBCl2v38201S6earop1NsPrBkFrWGcHnvqf/x9YPlN/aYfE9N5VtSCGOJ21bMaZG8KMV5GQ==
+"@redwoodjs/cli@^0.0.1-alpha.23.0.2":
+  version "0.0.1-alpha.23.0.2"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-0.0.1-alpha.23.0.2.tgz#65388356b2fe8b1b36c849d54b9f5d062cd24571"
+  integrity sha512-CHryMEQ8YcWeyLY320Xh8cIPu1BoItFr151NT5SxkQGb069O+kNYOEU0fSzNI6qfv0mjl2Hzxr0p/AyEKecVCw==
   dependencies:
     "@prisma/sdk" "0.0.103"
     "@redwoodjs/core" "^0.0.1-alpha.23"
@@ -1160,19 +1171,19 @@
     glob "^7.1.6"
     toml "^3.0.0"
 
-"@redwoodjs/dev-server@^0.0.1-alpha.23":
-  version "0.0.1-alpha.23"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/dev-server/-/dev-server-0.0.1-alpha.23.tgz#a1079e74bd84a3bb7c01e23621ce0bcae4642146"
-  integrity sha512-pfkgmq7i17bUpfLtyV2eCwa7NDQ/UqfP4+EnSfHpCHAcsMXZDcnJ/xEziOa8dZ6QBZXSVDe0JvqmBe/DZPyFoA==
+"@redwoodjs/dev-server@^0.0.1-alpha.23.0.2":
+  version "0.0.1-alpha.23.0.2"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/dev-server/-/dev-server-0.0.1-alpha.23.0.2.tgz#b69be594b49aeb7476c86e9cff279ae0c2b67970"
+  integrity sha512-mK5IuQkp+RrdpsWV7QIePwCJYHVHc+P/gJN4PmgyPxQcy1xHVNjmYza1Ue7NQ3GzjNJIQJuAxNh1RgVuWlL8HQ==
   dependencies:
-    "@babel/register" "^7.6.2"
+    "@babel/register" "^7.8.3"
     "@redwoodjs/core" "^0.0.1-alpha.23"
     args "^5.0.1"
     body-parser "^1.19.0"
-    chokidar "^3.2.2"
+    chokidar "^3.3.1"
     express "^4.17.1"
     express-logging "^1.1.1"
-    qs "^6.7.0"
+    qs "^6.9.1"
     require-dir "^1.2.0"
 
 "@redwoodjs/eslint-config@^0.0.1-alpha.23":
@@ -2720,7 +2731,7 @@ chokidar@^2.0.2, chokidar@^2.1.8:
   optionalDependencies:
     fsevents "^1.2.7"
 
-chokidar@^3.2.2:
+chokidar@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.3.1.tgz#c84e5b3d18d9a4d77558fef466b1bf16bbeb3450"
   integrity sha512-4QYCEWOcK3OJrxwvyyAOxFuhpvOVCYkr33LPfFNBjAD/w3sEzWsp2BUOkI4l9bHvWioAd0rc6NlHUOEaWkTeqg==
@@ -6808,7 +6819,7 @@ qs@6.7.0:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
-qs@^6.7.0:
+qs@^6.9.1:
   version "6.9.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.1.tgz#20082c65cb78223635ab1a9eaca8875a29bf8ec9"
   integrity sha512-Cxm7/SS/y/Z3MHWSxXb8lIFqgqBowP5JMlTUFyJN88y0SGQhVmZnqFK/PeuMX9LzUyWsqqhNxIyg0jlzq946yA==

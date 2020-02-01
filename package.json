@@ -7,7 +7,7 @@
     ]
   },
   "devDependencies": {
-    "@redwoodjs/cli": "^0.0.1-alpha.23.0.1",
+    "@redwoodjs/cli": "^0.0.1-alpha.23.0.2",
     "@redwoodjs/core": "^0.0.1-alpha.23",
     "@redwoodjs/eslint-config": "^0.0.1-alpha.23",
     "@redwoodjs/scripts": "^0.0.1-alpha.23"
