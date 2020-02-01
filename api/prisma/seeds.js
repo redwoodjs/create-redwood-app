@@ -1,9 +1,9 @@
 /* eslint-disable no-console */
+const { PrismaClient } = require('@prisma/client')
 const dotenv = require('dotenv')
-import { Photon } from '@prisma/photon'
 
-const photon = new Photon()
 dotenv.config()
+const db = new PrismaClient()
 
 async function main() {
   // Seed data is database data that needs to exist for your app to run.
@@ -23,5 +23,5 @@ async function main() {
 main()
   .catch((e) => console.error(e))
   .finally(async () => {
-    await photon.disconnect()
+    await db.disconnect()
   })
