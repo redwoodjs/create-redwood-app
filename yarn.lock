@@ -1132,13 +1132,14 @@
     lodash.merge "^4.6.2"
     lodash.omitby "^4.6.0"
 
-"@redwoodjs/cli@^0.0.1-alpha.23.0.2":
-  version "0.0.1-alpha.23.0.2"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-0.0.1-alpha.23.0.2.tgz#65388356b2fe8b1b36c849d54b9f5d062cd24571"
-  integrity sha512-CHryMEQ8YcWeyLY320Xh8cIPu1BoItFr151NT5SxkQGb069O+kNYOEU0fSzNI6qfv0mjl2Hzxr0p/AyEKecVCw==
+"@redwoodjs/cli@^0.0.1-alpha.23.0.3":
+  version "0.0.1-alpha.23.0.3"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-0.0.1-alpha.23.0.3.tgz#ac80e224eb9edeab24c7ffdeaf0ce553f1996813"
+  integrity sha512-b4x+/dknsBvy97EhVDZ99m1dA6LgajXx58yRDJ4fU4JKpOZ1vci3DC4thooJtoyvlaEvctsZu9B97iBlWWXSWA==
   dependencies:
     "@prisma/sdk" "0.0.103"
     "@redwoodjs/core" "^0.0.1-alpha.23"
+    "@types/react" "^16.9.19"
     camelcase "^5.3.1"
     concurrently "^5.0.0"
     core-js "3.6.4"
@@ -1171,10 +1172,10 @@
     glob "^7.1.6"
     toml "^3.0.0"
 
-"@redwoodjs/dev-server@^0.0.1-alpha.23.0.2":
-  version "0.0.1-alpha.23.0.2"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/dev-server/-/dev-server-0.0.1-alpha.23.0.2.tgz#b69be594b49aeb7476c86e9cff279ae0c2b67970"
-  integrity sha512-mK5IuQkp+RrdpsWV7QIePwCJYHVHc+P/gJN4PmgyPxQcy1xHVNjmYza1Ue7NQ3GzjNJIQJuAxNh1RgVuWlL8HQ==
+"@redwoodjs/dev-server@^0.0.1-alpha.23.0.3":
+  version "0.0.1-alpha.23.0.3"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/dev-server/-/dev-server-0.0.1-alpha.23.0.3.tgz#db2554ab3da49c8ffe8be91721271a35afef2616"
+  integrity sha512-6V1MAYQOoYAdp7riM1RFk812Gj9FHw/hRi/YTPwOhsCZxBmM6uSlcTA8Z9k67PCnx8eSZNdfXdZKnUwFsMapRQ==
   dependencies:
     "@babel/register" "^7.8.3"
     "@redwoodjs/core" "^0.0.1-alpha.23"
@@ -1519,6 +1520,14 @@
   version "16.9.17"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.17.tgz#58f0cc0e9ec2425d1441dd7b623421a867aa253e"
   integrity sha512-UP27In4fp4sWF5JgyV6pwVPAQM83Fj76JOcg02X5BZcpSu5Wx+fP9RMqc2v0ssBoQIFvD5JdKY41gjJJKmw6Bg==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
+
+"@types/react@^16.9.19":
+  version "16.9.19"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.19.tgz#c842aa83ea490007d29938146ff2e4d9e4360c40"
+  integrity sha512-LJV97//H+zqKWMms0kvxaKYJDG05U2TtQB3chRLF8MPNs+MQh/H1aGlyDUxjaHvu08EAGerdX2z4LTBc7ns77A==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"

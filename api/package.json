@@ -8,7 +8,7 @@
     "@redwoodjs/core": "^0.0.1-alpha.23"
   },
   "devDependencies": {
-    "@redwoodjs/dev-server": "^0.0.1-alpha.23.0.2",
+    "@redwoodjs/dev-server": "^0.0.1-alpha.23.0.3",
     "prisma2": "2.0.0-preview021"
   }
 }
