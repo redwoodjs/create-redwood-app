@@ -1,4 +1,4 @@
 [build]
   command = "yarn workspace web build"
-  publish = "web/dev"
+  publish = "web/dist"
   functions = "api/src/functions"
