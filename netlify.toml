@@ -1,4 +1,4 @@
 [build]
-  command = "yarn workspace web build && yarn workspace api build"
+  command = "yarn rw build"
   publish = "web/dist"
   functions = "api/dist/functions"
