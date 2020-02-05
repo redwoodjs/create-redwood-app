@@ -391,14 +391,6 @@
     "@babel/helper-plugin-utils" "^7.8.3"
     "@babel/plugin-syntax-dynamic-import" "^7.8.0"
 
-"@babel/plugin-proposal-export-default-from@^7.8.3":
-  version "7.8.3"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-export-default-from/-/plugin-proposal-export-default-from-7.8.3.tgz#4cb7c2fdeaed490b60d9bfd3dc8a20f81f9c2e7c"
-  integrity sha512-PYtv2S2OdCdp7GSPDg5ndGZFm9DmWFvuLoS5nBxZCgOBggluLnhTScspJxng96alHQzPyrrHxvC9/w4bFuspeA==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.8.3"
-    "@babel/plugin-syntax-export-default-from" "^7.8.3"
-
 "@babel/plugin-proposal-json-strings@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-json-strings/-/plugin-proposal-json-strings-7.8.3.tgz#da5216b238a98b58a1e05d6852104b10f9a70d6b"
@@ -460,13 +452,6 @@
   integrity sha512-5gdGbFon+PszYzqs83S3E5mpi7/y/8M9eC90MRTZfduQOYW76ig6SOSPNe41IG5LoP3FGBn2N0RjVDSQiS94kQ==
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.0"
-
-"@babel/plugin-syntax-export-default-from@^7.8.3":
-  version "7.8.3"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-export-default-from/-/plugin-syntax-export-default-from-7.8.3.tgz#f1e55ce850091442af4ba9c2550106035b29d678"
-  integrity sha512-a1qnnsr73KLNIQcQlcQ4ZHxqqfBKM6iNQZW2OMTyxNbA2WC7SHWHtGVpFzWtQAuS2pspkWVzdEBXXx8Ik0Za4w==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.8.3"
 
 "@babel/plugin-syntax-json-strings@^7.8.0":
   version "7.8.3"
@@ -1101,10 +1086,10 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@redwoodjs/api@^0.0.1-alpha.24.0.1":
-  version "0.0.1-alpha.24.0.1"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/api/-/api-0.0.1-alpha.24.0.1.tgz#63532fb5f523588a4a91484dbb5a396ec7869eb1"
-  integrity sha512-472iRGZC/6FuQciUjBTg+2ORSeCGAvaQ7SpRbN7d7q/NjVDNwV+200L4nR3NL97vZUXCk1i2CXrHml1YDrqDgw==
+"@redwoodjs/api@^0.0.1-alpha.25":
+  version "0.0.1-alpha.25"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/api/-/api-0.0.1-alpha.25.tgz#ec075118bf0fd0a8acb384e31e4e0a62eaa47ad6"
+  integrity sha512-NjIwgTrnvvBDN+1pq7Aj0mXAVnK8njBX8r7l9Mh5Q8WPEfk68wrd3GleXdDSH8V7pm9E2AHTAYLFAcYLk+HrSQ==
   dependencies:
     "@redwoodjs/core" "^0.0.1-alpha.24"
     apollo-server-lambda "2.9.16"
@@ -1117,10 +1102,10 @@
     lodash.merge "^4.6.2"
     lodash.omitby "^4.6.0"
 
-"@redwoodjs/cli@^0.0.1-alpha.24":
-  version "0.0.1-alpha.24"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-0.0.1-alpha.24.tgz#337d4a19824ba088e5d5897bd291164145744081"
-  integrity sha512-EMtOZJlIRNUNBD7+RS15ieGNfe0w4xh74ZueeRJhDz7uD2BpLoMX6pnCbUuQhhDZM+ypzT371HLg57bdlLvLVw==
+"@redwoodjs/cli@^0.0.1-alpha.25":
+  version "0.0.1-alpha.25"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-0.0.1-alpha.25.tgz#ce45d1717fc94fa5dd0924a1c10c01bf13a14c85"
+  integrity sha512-t+Hq6qqsAcwc8TcQQ6wAJ8izlaqPtiTxpGMJB7qMo6wKbE6zgqjfmbKIUVzDWPmwod+lKsPIlfuG2kqX1XIF+g==
   dependencies:
     "@prisma/sdk" "0.0.103"
     "@redwoodjs/core" "^0.0.1-alpha.24"
@@ -1192,22 +1177,22 @@
   dependencies:
     core-js "3.6.4"
 
-"@redwoodjs/scripts@^0.0.1-alpha.24":
-  version "0.0.1-alpha.24"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/scripts/-/scripts-0.0.1-alpha.24.tgz#53495f78ac65cdd97f9586ae796b18e4543096c3"
-  integrity sha512-NG54q1UMp5lXZe3zwyYNbGmeiCfkXhgPxPgBzjX3zE9x92oXfP3GWhwg9GLXFxtxfBnYtcERvNLABa/wC583TA==
+"@redwoodjs/scripts@^0.0.1-alpha.25.0.3":
+  version "0.0.1-alpha.25.0.3"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/scripts/-/scripts-0.0.1-alpha.25.0.3.tgz#2fab5bf077b0a740cb1fdbbf1326dbb7c0bfdc21"
+  integrity sha512-YsVZoiY6/kYss6FA7dzKzTdLRk80hfbsxXVUzuGgf+vRGefj2D1X36LHmq/R2ZfvggpkqlfBKfgkeePnXWS9bA==
   dependencies:
     "@babel/cli" "^7.8.4"
     "@babel/core" "^7.8.4"
     "@babel/node" "^7.8.4"
     "@babel/plugin-proposal-class-properties" "^7.8.3"
-    "@babel/plugin-proposal-export-default-from" "^7.8.3"
+    "@babel/plugin-proposal-optional-chaining" "^7.8.3"
     "@babel/plugin-transform-runtime" "^7.8.3"
     "@babel/preset-env" "^7.8.4"
     "@babel/preset-react" "^7.8.3"
     "@babel/preset-typescript" "^7.8.3"
     "@babel/runtime" "^7.8.4"
-    "@redwoodjs/cli" "^0.0.1-alpha.24"
+    "@redwoodjs/cli" "^0.0.1-alpha.25"
     "@redwoodjs/core" "^0.0.1-alpha.24"
     "@redwoodjs/dev-server" "^0.0.1-alpha.24"
     "@redwoodjs/eslint-config" "^0.0.1-alpha.24"
