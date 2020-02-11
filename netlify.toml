@@ -2,3 +2,8 @@
   command = "yarn rw build"
   publish = "web/dist"
   functions = "api/dist/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
