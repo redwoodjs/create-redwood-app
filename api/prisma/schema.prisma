@@ -10,3 +10,9 @@ generator photonjs {
 
 // Define your own datamodels here and run `yarn redwood db save` to create
 // migrations for them.
+// TODO: Please remove the following example:
+model UserExample {
+  id    Int     @id @default(autoincrement())
+  email String  @unique
+  name  String?
+}
