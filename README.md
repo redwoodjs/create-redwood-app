@@ -1,8 +1,4 @@
 # Redwood
->👉 **"This is not the Repo you are looking for"** _...most likely_. If your goal is to start building an app using RedwoodJS, you'll want to read through the [Tutorial](https://github.com/redwoodjs/tutorial) and get started from the command line using  
->`yarn create redwood-app <directory-name>`.
-
->**This repo is a template used by the RedwoodJS app bootstap package 'Create Redwood App'**, which you can find here [`redwood/packages/create-redwood-app/`](https://github.com/redwoodjs/redwood/tree/master/packages/create-redwood-app). If you're looking to do things like contribute to RedwoodJS development or reference Redwood's full-stack building blocks, then you're in the right place!🌲🎉 
 
 ## Getting Started
 
