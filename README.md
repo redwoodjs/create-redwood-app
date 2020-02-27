@@ -1,28 +1,49 @@
 # Redwood
+>👉 **"This is not the Repo you are looking for"** _...most likely_. If your goal is to start building an app using RedwoodJS, you'll want to read through the [Tutorial](https://github.com/redwoodjs/tutorial) and get started from the command line:
+>$ `yarn create redwood-app <directory-name>`
 
-## Getting Started
+>**This repo is a template used by the RedwoodJS app bootstrap package 'Create Redwood App'**, which is located at [`redwood/packages/create-redwood-app/`](https://github.com/redwoodjs/redwood/tree/master/packages/create-redwood-app). If you're looking to do things like contributing to RedwoodJS development or reference Redwood's full-stack building blocks, then you're in the right place!🌲🎉
+
+## Development: Getting Started
+Before you begin, please read the RedwoodJS [Contributor Covenant Code of Conduct](https://github.com/redwoodjs/redwood/blob/master/CODE_OF_CONDUCT.md)
+
+Most likely, you'll need to set up a development environment linked to packages from a local clone of [`redwoodjs/redwood/packages`](https://github.com/redwoodjs/redwood/tree/master/packages). This doc will help get you started:
+[Contributing to RedwoodJS](https://github.com/redwoodjs/redwood/blob/master/CONTRIBUTING.md)
+
 
 ### Setup
 
-We use Yarn as our package manager. To get the dependencies installed, just do this in the root directory:
+We use Yarn as our package manager:
 
 ```terminal
 yarn install
 ```
 
-### Fire it up
+>RedwoodJS uses yarn workspaces to separately manage `web/` and `api/`. All commands are configured to run from the root directory unless otherwise indicated.
+
+### Running the Local Server(s)
+You can run both the API and Web servers with a single command:
 
 ```terminal
 yarn redwood dev
 ```
+>The web browser opens automatically when you run `rw dev`. To disable this, edit your settings in `redwood.toml`. Set `[browser] open = true` to `false`.
 
-Your browser should open automatically to `http://localhost:8910` to see the web app. Lambda functions run on `http://localhost:8911` and are also proxied to `http://localhost:8910/api/functions/*`.
 
-## Development
+You can run the servers for each of the yarn workspaces independently:
 
-### Database
+```terminal
+yarn rw dev api
+yarn rw dev web
+```
 
-We're using [Prisma2](https://github.com/prisma/prisma2), a modern DB toolkit to query, migrate and model your database.
+Web Server: `http://localhost:8910`
+Lambda functions: `http://localhost:8911`
+Lambda proxy: `http://localhost:8910/api/functions/*`.
+
+## Database
+
+RedwoodJS uses [Prisma2](https://github.com/prisma/prisma2), a modern DB toolkit to query, migrate and model your database.
 
 Prisma2 is [not ready for production](https://isprisma2ready.com) at the moment.
 
