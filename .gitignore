@@ -1,6 +1,4 @@
 .DS_Store
-.netlify
-dev.db
 dist
 dist-babel
 node_modules
