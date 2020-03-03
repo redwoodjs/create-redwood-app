@@ -1,6 +1,6 @@
 datasource DS {
   provider = "redwood"
-  url = env('DB_HOST')
+  url = env("DB_HOST")
 }
 
 generator photonjs {
