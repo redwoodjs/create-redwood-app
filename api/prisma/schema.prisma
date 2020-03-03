@@ -1,6 +1,6 @@
 datasource DS {
-  provider = "sqlite"
-  url = "file:./dev.db"
+  provider = "redwood"
+  url = env('DB_HOST')
 }
 
 generator photonjs {
