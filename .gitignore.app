@@ -2,7 +2,6 @@
 .env
 .netlify
 dev.db
-schema.temp.prisma
 dist
 dist-babel
 node_modules
