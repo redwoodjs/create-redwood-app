@@ -5,7 +5,8 @@
     "ofhumanbondage.react-proptypes-intellisense",
     "mgmcdermott.vscode-language-babel",
     "wix.vscode-import-cost",
-    "pflannery.vscode-versionlens"
+    "pflannery.vscode-versionlens",
+    "editorconfig.editorconfig"
   ],
   "unwantedRecommendations": []
 }
