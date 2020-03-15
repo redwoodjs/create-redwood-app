@@ -1,4 +1,4 @@
-name: Run ESlint against latest Node 12
+name: Run ESlint
 
 on: [push]
 
