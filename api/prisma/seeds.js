@@ -11,13 +11,12 @@ async function main() {
   // will result in the same database state (usually by checking for the
   // existence of a record before trying to create it). For example:
   //
-  //   await photon.user.find({ email: admin@redwoodjs.com }).orCreate({
-  //     firstName: 'Admin',
-  //     lastName: 'Istrator',
-  //     email: 'admin@redwoodjs.com',
-  //   })
+  //   const existing = await db.user.findMany({ where: { email: 'admin@email.com' }})
+  //   if (!existing.length) {
+  //     await db.user.create({ data: { name: 'Admin', email: 'admin@email.com' }})
+  //   }
 
-  console.log('No data to seed. See api/prisma/seeds.js for info.')
+  console.info('No data to seed. See api/prisma/seeds.js for info.')
 }
 
 main()
