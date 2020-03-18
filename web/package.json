@@ -4,8 +4,8 @@
   "private": true,
   "browserslist": ["defaults"],
   "dependencies": {
-    "@redwoodjs/web": "^0.2.2",
-    "@redwoodjs/router": "^0.2.2",
+    "@redwoodjs/web": "^0.2.5",
+    "@redwoodjs/router": "^0.2.5",
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
