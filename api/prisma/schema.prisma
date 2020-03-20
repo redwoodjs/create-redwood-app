@@ -3,7 +3,7 @@ datasource DS {
   url = env("DATABASE_URL")
 }
 
-generator photonjs {
+generator client {
   provider = "prisma-client-js"
   binaryTargets = env("BINARY_TARGET")
 }
