@@ -6,7 +6,8 @@
     "mgmcdermott.vscode-language-babel",
     "wix.vscode-import-cost",
     "pflannery.vscode-versionlens",
-    "editorconfig.editorconfig"
+    "editorconfig.editorconfig",
+    "prisma.prisma"
   ],
   "unwantedRecommendations": []
 }
