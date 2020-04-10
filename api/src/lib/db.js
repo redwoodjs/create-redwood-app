@@ -4,3 +4,28 @@
 import { PrismaClient } from '@prisma/client'
 
 export const db = new PrismaClient()
+
+// Using this as a workaround until Prisma has a chance to work on
+// https://github.com/prisma/prisma/issues/2152
+export const foreignKeyReplacement = (input) => {
+  let output = input
+  const foreignKeys = []
+
+  for (let key in input) {
+    if (key.match(/Id$/)) {
+      foreignKeys.push(key)
+    }
+  }
+
+  foreignKeys.forEach((key) => {
+    const modelName = key.replace(/Id$/, '')
+    const value = input[key]
+
+    delete output[key]
+    output = Object.assign(output, {
+      [modelName]: { connect: { id: value } },
+    })
+  })
+
+  return output
+}
