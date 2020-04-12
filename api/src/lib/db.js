@@ -9,7 +9,7 @@ export const db = new PrismaClient()
 // https://github.com/prisma/prisma/issues/2152
 export const foreignKeyReplacement = (input) => {
   let output = input
-  const foreignKeys = []
+  const foreignKeys = Object.keys(input).filter(k => k.match(/Id$/))
 
   for (let key in input) {
     if (key.match(/Id$/)) {
