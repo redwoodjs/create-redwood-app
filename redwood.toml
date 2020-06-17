@@ -1,3 +1,9 @@
+# This file contains the configuration settings for your Redwood app.
+# This file is also what makes your Redwood app a Redwood app. If you remove it and try to run `yarn rw dev`, you'll get an error.
+#
+# For the full list of options, see config.ts: https://github.com/redwoodjs/redwood/blob/d51ade08118c17459cebcdb496197ea52485364a/packages/internal/src/config.ts#L42-L60.
+# By default, a Redwood app's apiProxyPath is the same as Netlify's.
+
 [web]
   port = 8910
   apiProxyPath = "/.netlify/functions"
