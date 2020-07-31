@@ -23,6 +23,16 @@ yarn redwood dev
 
 Your browser should open automatically to `http://localhost:8910` to see the web app. Lambda functions run on `http://localhost:8911` and are also proxied to `http://localhost:8910/api/functions/*`.
 
+### Updating Redwood
+
+Redwood comes with a helpful command to update itself and its dependencies. Why not try a new and improved version today?
+
+> :point_right: IMPORTANT: Skipping versions when upgrading is not recommended and will likely cause problems. Do read through all [Release Notes](https://github.com/redwoodjs/redwood/releases) between your current version and the latest version. Each minor release will likely require you to implement breaking change fixes and apply manual code modifications.
+
+```terminal
+yarn rw upgrade
+```
+
 ## Development
 
 ### Database
