@@ -7,3 +7,4 @@ dist
 dist-babel
 node_modules
 yarn-error.log
+web/public/mockServiceWorker.js
