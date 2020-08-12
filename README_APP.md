@@ -1,6 +1,6 @@
 # Redwood
 
-> **NOTE:** Redwood is still in the alpha phase of development. We do not recommend that you use Redwood applications in production at this time.
+> **WARNING:** RedwoodJS software has not reached a stable version 1.0 and should not be considered suitable for production use. In the "make it work; make it right; make it fast" paradigm, Redwood is in the later stages of the "make it work" phase.
 
 ## Getting Started
 - [Redwoodjs.com](https://redwoodjs.com): home to all things RedwoodJS.
@@ -38,9 +38,7 @@ yarn rw upgrade
 
 ### Database
 
-We're using [Prisma2](https://github.com/prisma/prisma2), a modern DB toolkit to query, migrate and model your database.
-
-Prisma2 is [not ready for production](https://isprisma2ready.com) at the moment.
+We're using [Prisma 2](https://github.com/prisma/prisma2), a modern DB toolkit to query, migrate and model your database.
 
 To create a development database:
 
