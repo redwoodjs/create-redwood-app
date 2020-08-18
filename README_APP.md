@@ -1,6 +1,6 @@
 # Redwood
 
-> **WARNING:** Redwood is still in the alpha phase of development. We do not recommend that you use Redwood applications in production at this time.
+> **WARNING:** RedwoodJS software has not reached a stable version 1.0 and should not be considered suitable for production use. In the "make it work; make it right; make it fast" paradigm, Redwood is in the later stages of the "make it work" phase.
 
 ## Getting Started
 - [Tutorial](https://redwoodjs.com/tutorial/welcome-to-redwood): getting started and complete overview guide.
