@@ -1,3 +1,11 @@
+# ARCHIVED
+## This repository has been archived.
+The template codebase is now located within the Redwood Framework Repository:  
+https://github.com/redwoodjs/redwood/tree/main/packages/create-redwood-app/template
+
+
+---
+
 # Redwood
 >👉 **"This is not the Repo you are looking for"** _...most likely_. If your goal is to start building an app using RedwoodJS, you'll want to read through the [Tutorial](https://redwoodjs.com/tutorial/welcome-to-redwood) and get started from the command line:
 >$ `yarn create redwood-app <directory-name>`
